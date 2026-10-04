@@ -55,6 +55,21 @@ flowchart TD
 
 ---
 
+## 💻 Infrastructure & Software Technology Stack
+
+| Layer | Technology & Tools | Production Role |
+|---|---|---|
+| **AST & Taint Analysis Engine** | Semgrep OSS 1.70+, Tree-sitter AST | Deep semantic taint tracking from untrusted HTTP/CLI inputs to database and shell sinks |
+| **Secret Detection & Entropy** | TruffleHog, Gitleaks, regex key matchers | High-entropy credential scanning detecting AWS AKIA, OpenAI `sk-`, and SSH private keys |
+| **Vulnerability Data Standard** | OASIS SARIF v2.1.0 (Static Analysis Format) | Unified diagnostic output consumable by GitHub Code Scanning, GitLab SAST, and SonarQube |
+| **AI Remediation & Patch Synthesizer**| OpenAI Codex / GPT-4o Code Engine | Unified GNU diff code patch generation bounded by a maximum modification radius |
+| **Sandboxed Verification Runner** | Pytest, Docker container isolation | Pre-commit test suite execution validating that generated patches fix the vulnerability without regressions |
+| **Secrets Revocation Integration** | HashiCorp Vault API, AWS Secrets Manager, KMS | Sub-8-second dynamic key invalidation and token rotation upon detected leakage |
+| **CI/CD & Repository Webhooks** | GitHub Actions, GitLab CI, GitHub Apps | Event-driven PR inspection, check-run status updates, and automated PR generation |
+| **Orchestrator & Compliance** | Kubernetes CronJobs, SOC2 & ISO 27001 audit logger | Scheduled organization-wide monorepo deep scans with tamper-evident audit trails |
+
+---
+
 ## 🎯 Where to Use (Real-World Enterprise Production Scenarios)
 
 | Industry / Domain | Core Operational Driver | Production Implementation |
