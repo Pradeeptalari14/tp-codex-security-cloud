@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # OpenAI Codex Security Cloud Architecture & Autonomous Remediation
 
 [![CI Status](https://github.com/Pradeeptalari14/tp-codex-security-cloud/actions/workflows/security-cloud-ci.yml/badge.svg)](https://github.com/Pradeeptalari14/tp-codex-security-cloud/actions)
@@ -199,3 +202,6 @@ tp-codex-security-cloud/
 ## 📜 License & Compliance
 
 Licensed under the [MIT License](LICENSE). Built for enterprise DevSecOps and security engineering teams operationalizing OpenAI DevDay 2026 security architectures.
+
+---
+*Synchronized with [Codex Security Cloud Scanner Studio Studio](https://pradeeptalari.me/tools/codex-security-cloud/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
